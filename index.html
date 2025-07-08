@@ -5,21 +5,29 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            overflow: hidden; /* Hide scrollbars on main page if iframe handles them */
-            font-family: sans-serif;
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 50px;
         }
-        #resume-frame {
-            width: 100%;
-            height: 100%;
-            border: none;
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        a:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
-    <iframe id="resume-frame" src="snehil_dey_resume.pdf"></iframe>
+    <h1>Snehil Dey - Resume</h1>
+    <p>Click the link below to view or download my resume.</p>
+    <a href="snehil_dey_resume.pdf" target="_blank">View/Download Resume (PDF)</a>
+    <p style="margin-top: 30px; font-size: 0.9em; color: #666;">Last updated: July 8, 2025</p>
 </body>
 </html>
